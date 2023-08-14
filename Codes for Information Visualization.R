@@ -1,4 +1,4 @@
-crime<-read.csv("AssessmentCrimeData.csv")
+crime<-read.csv("CrimeData.csv")
 #Create new variable name called Districts
 crime$District = sub("(\\D+\\s).*","\\1",crime$Name)
 #view,discribd and summarize data
